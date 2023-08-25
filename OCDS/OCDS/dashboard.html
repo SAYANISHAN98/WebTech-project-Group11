@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body id="Dashboard">
+    <nav class="nav-bar">
+      <div class="nav-links">
+        <h1 class="logo">OCDS</h1>
+        <a class="btn fill-btn" href="#">Logout</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="card profile-card">
+        <div class="grid-col-3">
+          <div class="profile">
+            <!-- if theres no profile picture generate this -->
+            <div class="icon-bg profile-bg">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <!-- otherwise generate this -->
+            <!-- <img src="#" alt="Profile Picture" class="profile-picture" /> -->
+            <!-- end if -->
+            <h4>Sankavi Mohan</h4>
+            <p>2020/CSC/033</p>
+          </div>
+          <div class="line"></div>
+          <div class="profile-details">
+            <div class="detail-row-grid">
+              <h5>NIC:</h5>
+              <p>200021245326</p>
+            </div>
+            <div class="detail-row-grid">
+              <h5>Gender:</h5>
+              <p>Female</p>
+            </div>
+            <div class="detail-row-grid">
+              <h5>E-mail:</h5>
+              <p>sankavi@gmail.com</p>
+            </div>
+            <div class="detail-row-grid">
+              <h5>Mobile Number:</h5>
+              <p>+94 772642852</p>
+            </div>
+            <div class="detail-row-grid">
+              <h5>Address:</h5>
+              <p>Vavuniya</p>
+            </div>
+            <div class="detail-row-grid">
+              <h5>Digree Program:</h5>
+              <p>Computer Science</p>
+            </div>
+            <div class="detail-row-grid">
+              <h5>Subject Combination:</h5>
+              <p>Computer Science</p>
+            </div>
+            <div class="detail-row-grid">
+              <h5>Course Duration:</h5>
+              <p>03 Years</p>
+            </div>
+            <div class="detail-row-grid">
+              <h5>Date of Admission:</h5>
+              <p>N/A</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card request-sec">
+        <h3 class="topic">Certificate Request Progress</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- if there is no data in the table. To see this uncomment this section and comment other sections and run -->
+            <!-- <tr>
+              No Records Found
+            </tr> -->
+
+            <!-- If there is Records. To see this uncomment this section and comment other sections and run -->
+            <tr>
+              <td>12/05/2023</td>
+              <td>Request for the Certificate</td>
+              <td><span class="pending">Pending</span></td>
+            </tr>
+
+            <!-- If the record is approved. To see this uncomment this section and comment other sections and run -->
+            <tr>
+              <td>12/05/2023</td>
+              <td>Request for the Certificate</td>
+              <td><a href="#" class="btn success-btn">Download</a></td>
+            </tr>
+            <tr>
+              <td>12/05/2023</td>
+              <td>Request for the Certificate</td>
+              <td><a href="#" class="btn success-btn">Download</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card progress-sec">
+        <h3 class="topic">Progress of Inquiries</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- if there is no data in the table. To see this uncomment this section and comment other sections and run -->
+            <!-- <tr>
+              No Records Found
+            </tr> -->
+
+            <!-- If there is Records. To see this uncomment this section and comment other sections and run -->
+            <tr>
+              <td>12/05/2023</td>
+              <td>Update my name</td>
+              <td><span class="pending">Pending</span></td>
+            </tr>
+            <tr>
+              <td>12/05/2023</td>
+              <td>Update my degree details</td>
+              <td><a href="#" class="settled">Settled</a></td>
+            </tr>
+            <tr>
+              <td>12/05/2023</td>
+              <td>Inquire about the disciplinery issue</td>
+              <td><a href="#" class="view-comment">View Comment</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="copyright">
+        COPYRIGHT &copy; 2023 FACULTY OF SCIENCE UNIVERSITY OF JAFFNA. ALL
+        RIGHTS RESERVED.
+      </p>
+    </div>
+  </body>
+</html>
